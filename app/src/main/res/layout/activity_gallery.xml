@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.kingbell.govarthan_september_test.FragmentA"
+        android:id="@+id/fragment"
+        android:layout_gravity="center_horizontal" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.kingbell.govarthan_september_test.fragmentB"
+        android:id="@+id/fragment2"
+        android:layout_gravity="center_horizontal" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.kingbell.govarthan_september_test.FragmentC"
+        android:id="@+id/fragment3"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
